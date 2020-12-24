@@ -1,0 +1,379 @@
+/*<<<<<<<<<<<<<<<<<<< extra-small device responsive start >>>>>>>>>>>>>>>>>*/
+
+@media(min-width:320px) and (max-width:575px) {
+
+
+    /*<<<<<<<<<<<<<<<<<<< navbar-part start >>>>>>>>>>>>>>>>>*/
+
+    nav button i {
+        color: #fff
+    }
+
+    nav .navbar-brand .img img {
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    nav #navbarSupportedContent {
+        background: rgb(70, 66, 59, .9);
+    }
+
+
+    nav ul {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    nav ul li a::after {
+        bottom: 0;
+    }
+
+/*
+    nav ul li:hover ::after {
+        width: 30%;
+        margin-left: 109px;
+    }
+*/
+
+    nav .menu-item .search {
+        text-align: center;
+    }
+
+    nav .menu-item .search a::after {
+        display: none;
+    }
+
+    /*<<<<<<<<<<<<<<<<<<< navbar-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< banner-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #banner-part {
+        height: 500px;
+    }
+
+    #banner-part .overlay h1 {
+        width: auto;
+        font-size: 50px;
+        padding-top: 180px;
+    }
+
+    #banner-part .overlay h1 span {
+        font-size: 80px;
+    }
+
+    /*<<<<<<<<<<<<<<<<<<< banner-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< user-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #user-part {
+        margin-bottom: 30px;
+    }
+
+    #user-part h2 {
+        font-size: 21px;
+        padding: 50px 0;
+    }
+
+    #user-part .item .text p {
+        font-size: 14px;
+        margin-top: 15px;
+        line-height: normal;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< user-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< counter-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #counter-part {
+        margin-bottom: 50px;
+    }
+
+    #counter-part .item {
+        padding: 40px 0;
+    }
+
+    #counter-part .item .img img {
+        width: 40px;
+    }
+
+    #counter-part .item h3 {
+        font-size: 40px;
+        padding: 35px 0;
+    }
+
+    #counter-part .item p {
+        font-size: 17px;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< counter-part start >>>>>>>>>>>>>>>>>*/
+
+
+    /*<<<<<<<<<<<<<<<<<<< portfolio-part start >>>>>>>>>>>>>>>>>*/
+
+    
+    #portfolio-part{
+        display: none;
+    }
+
+/*
+    #portfolio-part {
+        margin-bottom: 40px;
+    }
+
+    #portfolio-part .top h2 {
+        font-size: 25px;
+    }
+
+    #portfolio-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+
+    #portfolio-part .left-img img {
+        width: 92%;
+        height: 70%;
+    }
+
+    #portfolio-part .right {
+        position: static;
+    }
+
+    #portfolio-part .bottom .img-two img {
+        position: static;
+        width: 101%;
+    }
+
+    #portfolio-part .top-img {
+        width: auto;
+    }
+
+    #portfolio-part .left-img {
+        height: auto;
+    }
+
+    #portfolio-part .top-img .img .overlay h4 {
+        font-size: 24px;
+    }
+
+    #portfolio-part .top-img .img .overlay p {
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    #portfolio-part .top-img .img .overlay a {
+        font-size: 14px;
+        padding: 8px 25px;
+    }
+
+
+    #portfolio-part .topr-img .img img {
+        width: 64%;
+    }
+
+    #portfolio-part .topr-img .img .overlay {
+        width: 64%;
+    }
+
+    #portfolio-part .topr-img .img .overlay h4 {
+        font-size: 24px;
+    }
+
+    #portfolio-part .topr-img .img .overlay p {
+        width: 300px;
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    #portfolio-part .topr-img .img .overlay a {
+        font-size: 14px;
+        padding: 8px 25px;
+    }
+
+    #portfolio-part .bottom img {
+        width: 101%;
+    }
+*/
+
+
+    /*<<<<<<<<<<<<<<<<<<< portfolio-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< service-part start >>>>>>>>>>>>>>>>>*/
+
+    #service-part{
+        padding-bottom: 30px;
+    }
+    #service-part .top h2 {
+        font-size: 25px;
+    }
+
+    #service-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+
+    #service-part .item-two {
+        margin-bottom: 30px;
+    }
+
+    #service-part .item-four {
+        margin-bottom: 30px;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< service-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< client-part start >>>>>>>>>>>>>>>>>*/
+
+    #client-part {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #client-part .top h2 {
+        font-size: 25px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #client-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+    #client-part .client-slider{
+        padding-top: 0;
+        padding-bottom: 110px;
+    }
+    #client-part .slick-slide img {
+                width: 100px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    
+    #client-part ul{
+        bottom:20px;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< client-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+   /*<<<<<<<<<<<<<<<<<<< team-part start >>>>>>>>>>>>>>>>>*/ 
+    
+    
+    #team-part{
+        margin-bottom: 30px;
+    }
+    #team-part .top h2 {
+        font-size: 25px;
+    }
+
+    #team-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+    
+    #team-part .item{
+        margin-bottom: 30px;
+    }
+    
+    #team-part .text .icon::after {
+        width: 250px;
+    }
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< team-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< join-part start >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    #join-part{
+        padding: 50px 0;
+    }
+    
+      #join-part .top h2 {
+        font-size: 25px;
+    }
+
+    #join-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+    
+    #join-part input{
+        width: 288px;
+        margin-bottom: 25px;
+    }
+    #join-part button{
+        width: 100px;
+        height:40px;
+        margin-left: 0;
+    }
+    
+    /*<<<<<<<<<<<<<<<<<<< join-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< bottom-part start >>>>>>>>>>>>>>>>>*/
+    
+    #bottom-part{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    #bottom-part .img img{
+        width: 130px;
+    }
+    #bottom-part p{
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    
+    #bottom-part ul li a{
+        font-size: 20px;
+    }
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< bottom-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+
+}
+
+
+
+/*<<<<<<<<<<<<<<<<<<< extra-small device responsive end >>>>>>>>>>>>>>>>>*/
