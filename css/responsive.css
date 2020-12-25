@@ -377,3 +377,919 @@
 
 
 /*<<<<<<<<<<<<<<<<<<< extra-small device responsive end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<< small device responsive start >>>>>>>>>>>>>>>>>*/
+
+@media(min-width:576px) and (max-width:767px) {
+
+
+    /*<<<<<<<<<<<<<<<<<<< navbar-part start >>>>>>>>>>>>>>>>>*/
+
+    nav button i {
+        color: #fff
+    }
+
+    nav .navbar-brand .img img {
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    nav #navbarSupportedContent {
+        background: rgb(70, 66, 59, .9);
+    }
+
+
+    nav ul {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    nav ul li a::after {
+        bottom: 0;
+    }
+
+/*
+    nav ul li:hover ::after {
+        width: 30%;
+        margin-left: 109px;
+    }
+*/
+
+    nav .menu-item .search {
+        text-align: center;
+    }
+
+    nav .menu-item .search a::after {
+        display: none;
+    }
+
+    /*<<<<<<<<<<<<<<<<<<< navbar-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< banner-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #banner-part {
+        height: 500px;
+    }
+
+    #banner-part .overlay h1 {
+        width: auto;
+        font-size: 50px;
+        padding-top: 180px;
+    }
+
+    #banner-part .overlay h1 span {
+        font-size: 80px;
+    }
+
+    /*<<<<<<<<<<<<<<<<<<< banner-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< user-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #user-part {
+        margin-bottom: 30px;
+    }
+
+    #user-part h2 {
+        font-size: 21px;
+        padding: 50px 0;
+    }
+
+    #user-part .item {
+        margin-bottom: 50px;
+    }
+    #user-part .item .text p {
+        font-size: 14px;
+        margin-top: 15px;
+        line-height: normal;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< user-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< counter-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #counter-part {
+        margin-bottom: 50px;
+    }
+
+    #counter-part .item {
+        padding: 40px 0;
+    }
+
+    #counter-part .item .img img {
+        width: 40px;
+    }
+
+    #counter-part .item h3 {
+        font-size: 40px;
+        padding: 35px 0;
+    }
+
+    #counter-part .item p {
+        font-size: 17px;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< counter-part start >>>>>>>>>>>>>>>>>*/
+
+
+    /*<<<<<<<<<<<<<<<<<<< portfolio-part start >>>>>>>>>>>>>>>>>*/
+
+    
+    #portfolio-part{
+        display: none;
+    }
+
+/*
+    #portfolio-part {
+        margin-bottom: 40px;
+    }
+
+    #portfolio-part .top h2 {
+        font-size: 25px;
+    }
+
+    #portfolio-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+
+    #portfolio-part .left-img img {
+        width: 92%;
+        height: 70%;
+    }
+
+    #portfolio-part .right {
+        position: static;
+    }
+
+    #portfolio-part .bottom .img-two img {
+        position: static;
+        width: 101%;
+    }
+
+    #portfolio-part .top-img {
+        width: auto;
+    }
+
+    #portfolio-part .left-img {
+        height: auto;
+    }
+
+    #portfolio-part .top-img .img .overlay h4 {
+        font-size: 24px;
+    }
+
+    #portfolio-part .top-img .img .overlay p {
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    #portfolio-part .top-img .img .overlay a {
+        font-size: 14px;
+        padding: 8px 25px;
+    }
+
+
+    #portfolio-part .topr-img .img img {
+        width: 64%;
+    }
+
+    #portfolio-part .topr-img .img .overlay {
+        width: 64%;
+    }
+
+    #portfolio-part .topr-img .img .overlay h4 {
+        font-size: 24px;
+    }
+
+    #portfolio-part .topr-img .img .overlay p {
+        width: 300px;
+        font-size: 13px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    #portfolio-part .topr-img .img .overlay a {
+        font-size: 14px;
+        padding: 8px 25px;
+    }
+
+    #portfolio-part .bottom img {
+        width: 101%;
+    }
+*/
+
+
+    /*<<<<<<<<<<<<<<<<<<< portfolio-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< service-part start >>>>>>>>>>>>>>>>>*/
+
+    #service-part{
+        padding-bottom: 30px;
+    }
+    #service-part .top h2 {
+        font-size: 25px;
+    }
+
+    #service-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+
+    #service-part .item-two {
+        margin-bottom: 30px;
+    }
+
+    #service-part .item-four {
+        margin-bottom: 30px;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< service-part end >>>>>>>>>>>>>>>>>*/
+
+
+
+    /*<<<<<<<<<<<<<<<<<<< client-part start >>>>>>>>>>>>>>>>>*/
+
+    #client-part {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #client-part .top h2 {
+        font-size: 25px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #client-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+    #client-part .client-slider{
+        padding-top: 0;
+        padding-bottom: 110px;
+    }
+    #client-part .slick-slide img {
+                width: 100px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    
+    #client-part ul{
+        bottom:20px;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< client-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+   /*<<<<<<<<<<<<<<<<<<< team-part start >>>>>>>>>>>>>>>>>*/ 
+    
+    
+    #team-part{
+        margin-bottom: 30px;
+    }
+    #team-part .top h2 {
+        font-size: 25px;
+    }
+
+    #team-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+    
+    #team-part .item{
+        margin-bottom: 30px;
+    }
+    
+    #team-part .text .icon::after {
+        width: 250px;
+    }
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< team-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< join-part start >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    #join-part{
+        padding: 50px 0;
+    }
+    
+      #join-part .top h2 {
+        font-size: 25px;
+    }
+
+    #join-part .top p {
+        width: auto;
+        font-size: 13px;
+        padding: 20px 0 50px 0;
+    }
+    
+    #join-part input{
+        width: 288px;
+        height:40px;
+        margin-bottom: 25px;
+        margin-right: 10px;
+    }
+    #join-part button{
+        width: 100px;
+        height:40px;
+        margin-left: 0;
+    }
+    
+    /*<<<<<<<<<<<<<<<<<<< join-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< bottom-part start >>>>>>>>>>>>>>>>>*/
+    
+    #bottom-part{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    #bottom-part .img img{
+        width: 130px;
+    }
+    #bottom-part p{
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    
+    #bottom-part ul li a{
+        font-size: 20px;
+    }
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< bottom-part end >>>>>>>>>>>>>>>>>*/
+
+}
+
+/*<<<<<<<<<<<<<<<<<<< small device responsive end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<< mediam device responsive start >>>>>>>>>>>>>>>>>*/
+
+
+@media (min-width:768px) and (max-width:991px){
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< navbar-part start >>>>>>>>>>>>>>>>>*/
+
+    nav button i {
+        color: #fff
+    }
+
+    nav .navbar-brand .img img {
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    nav #navbarSupportedContent {
+        background: rgb(70, 66, 59, .9);
+    }
+
+
+    nav ul {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    nav ul li a::after {
+        bottom: 0;
+    }
+
+/*
+    nav ul li:hover ::after {
+        width: 30%;
+        margin-left: 109px;
+    }
+*/
+
+    nav .menu-item .search {
+        text-align: center;
+    }
+
+    nav .menu-item .search a::after {
+        display: none;
+    }
+
+    /*<<<<<<<<<<<<<<<<<<< navbar-part end >>>>>>>>>>>>>>>>>*/
+
+    
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< banner-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #banner-part {
+        height: 650px;
+    }
+
+    #banner-part .overlay h1 {
+        width: 400px;
+        font-size: 70px;
+        padding-top: 250px;
+    }
+
+    #banner-part .overlay h1 span {
+        font-size: 120px;
+    }
+
+    /*<<<<<<<<<<<<<<<<<<< banner-part end >>>>>>>>>>>>>>>>>*/
+
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< user-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #user-part {
+        margin-bottom: 30px;
+    }
+
+    #user-part h2 {
+        font-size: 29px;
+        padding: 80px 0;
+    }
+    #user-part .item{
+        margin-bottom: 50px;
+    }
+    #user-part .item .text p {
+        font-size: 13px;
+        margin-top: 15px;
+        line-height: normal;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< user-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< counter-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #counter-part {
+        margin-bottom: 50px;
+    }
+
+    #counter-part .item {
+        padding: 40px 0;
+    }
+
+    #counter-part .item .img img {
+        width: 35px;
+    }
+
+    #counter-part .item h3 {
+        font-size: 35px;
+        padding: 35px 0;
+    }
+
+    #counter-part .item p {
+        font-size: 14px;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< counter-part start >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+      /*<<<<<<<<<<<<<<<<<<< portfolio-part start >>>>>>>>>>>>>>>>>*/
+
+    
+    #portfolio-part{
+        display: none;
+    }
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< portfolio-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+
+    /*<<<<<<<<<<<<<<<<<<< service-part start >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+       #service-part{
+        padding-bottom: 30px;
+    }
+    #service-part .top h2 {
+        font-size: 30px;
+    }
+
+    #service-part .top p {
+        width: auto;
+        font-size: 16px;
+        padding: 20px 0 50px 0;
+    }
+
+    
+    #service-part .item-one{
+        padding: 40px 15px;
+    }
+    
+    #service-part .item-two{
+        padding: 40px 15px;
+    }
+    
+    #service-part .item-three{
+        padding: 40px 15px;
+    }
+    
+    #service-part .item-four{
+        padding: 40px 15px;
+    }
+    
+    #service-part .item-five{
+        padding: 40px 15px;
+    }
+    
+    #service-part .item-six{
+        padding: 40px 15px;
+    }
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< service-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    
+     /*<<<<<<<<<<<<<<<<<<< client-part start >>>>>>>>>>>>>>>>>*/
+
+    #client-part {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #client-part .top h2 {
+        font-size: 30px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #client-part .top p {
+        width: auto;
+        font-size: 16px;
+        padding: 20px 0 50px 0;
+    }
+    #client-part .client-slider{
+        padding-top: 0;
+        padding-bottom: 140px;
+    }
+    #client-part .slick-slide img {
+                width: 100px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    
+    #client-part ul{
+        bottom:40px;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< client-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+   /*<<<<<<<<<<<<<<<<<<< team-part start >>>>>>>>>>>>>>>>>*/ 
+    
+    
+    #team-part{
+        margin-bottom: 30px;
+    }
+    #team-part .top h2 {
+        font-size: 30px;
+    }
+
+    #team-part .top p {
+        width: auto;
+        font-size: 16px;
+        padding: 20px 0 50px 0;
+    }
+    
+    #team-part .item{
+        margin-bottom: 30px;
+    }
+    #team-part .text p{
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #team-part .text .icon::after {
+        width: 172px;
+    }
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< team-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< join-part start >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    #join-part{
+        padding: 50px 0;
+    }
+    
+      #join-part .top h2 {
+        font-size: 30px;
+    }
+
+    #join-part .top p {
+        width: auto;
+        font-size: 16px;
+        padding: 20px 0 50px 0;
+    }
+    
+    #join-part input{
+        width: 288px;
+        height:45px;
+        margin-bottom: 25px;
+        margin-right: 10px;
+    }
+    #join-part button{
+        width: 100px;
+        height:45px;
+        margin-left: 0;
+    }
+    
+    /*<<<<<<<<<<<<<<<<<<< join-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< bottom-part start >>>>>>>>>>>>>>>>>*/
+    
+    #bottom-part{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    #bottom-part .img img{
+        width: 130px;
+    }
+    #bottom-part p{
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    
+    #bottom-part ul li a{
+        font-size: 20px;
+    }
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< bottom-part end >>>>>>>>>>>>>>>>>*/
+ 
+    
+    
+    
+}
+
+/*<<<<<<<<<<<<<<<<<<< mediam device responsive end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<< large device responsive start >>>>>>>>>>>>>>>>>*/
+
+
+@media (min-width:992px) and (max-width:1199px){
+  
+    
+    
+     
+    /*<<<<<<<<<<<<<<<<<<< navbar-part start >>>>>>>>>>>>>>>>>*/
+
+  
+
+    nav .navbar-brand .img img {
+        width: 130px;
+        margin-left: 10px;
+    }
+
+
+
+    nav ul {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        margin-left: 25px;
+    }
+
+    nav ul li a::after {
+        bottom: -26px;
+    }
+
+    nav .menu-item .search {
+        text-align: center;
+    }
+
+    nav .menu-item .search a::after {
+        display: none;
+    }
+
+    /*<<<<<<<<<<<<<<<<<<< navbar-part end >>>>>>>>>>>>>>>>>*/
+
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< banner-part start >>>>>>>>>>>>>>>>>*/
+    
+    
+    #banner-part .overlay h1{
+        font-size: 90px;
+    }
+    
+    #banner-part .overlay h1 span{
+        font-size: 150px;
+    }
+    
+    /*<<<<<<<<<<<<<<<<<<< banner-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< user-part start >>>>>>>>>>>>>>>>>*/
+    
+    #user-part h2{
+        font-size: 34px;
+        padding: 75px 0;
+    }
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< user-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    
+     
+    
+    /*<<<<<<<<<<<<<<<<<<< counter-part start >>>>>>>>>>>>>>>>>*/
+
+
+    #counter-part {
+        margin-bottom: 50px;
+    }
+
+    #counter-part .item {
+        padding: 70px 0;
+    }
+
+    #counter-part .item .img img {
+        width: 45px;
+    }
+
+    #counter-part .item h3 {
+        font-size: 45px;
+        padding: 35px 0;
+    }
+
+    #counter-part .item p {
+        font-size: 17px;
+    }
+
+
+    /*<<<<<<<<<<<<<<<<<<< counter-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< portfolio-part start >>>>>>>>>>>>>>>>>*/
+    
+    #portfolio-part .left-img .img{
+        display: none;
+    }
+    
+    #portfolio-part .right{
+        top:210px;
+    }
+    #portfolio-part .bottom img{
+        width: 50%;
+    }
+    
+    #portfolio-part .bottom .img-two img{
+        display: none;
+    }
+
+    
+    /*<<<<<<<<<<<<<<<<<<< portfolio-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+     /*<<<<<<<<<<<<<<<<<<< service-part start >>>>>>>>>>>>>>>>>*/
+    
+    #service-part .top p{
+        padding-bottom: 70px;
+    }
+     /*<<<<<<<<<<<<<<<<<<< service-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< team-part start >>>>>>>>>>>>>>>>>*/
+    
+    #team-part .top h2{
+        font-size: 40px;
+    }
+    #team-part .top p{
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 70px;
+    }
+    #team-part .text .icon::after {
+        width: 252px;
+    }
+    
+    /*<<<<<<<<<<<<<<<<<<< team-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+    /*<<<<<<<<<<<<<<<<<<< join-part start >>>>>>>>>>>>>>>>>*/
+    
+    
+    #join-part{
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+    
+    #join-part .top h2{
+        font-size: 40px;
+    }
+    #join-part .top p{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    
+    /*<<<<<<<<<<<<<<<<<<< join-part end >>>>>>>>>>>>>>>>>*/
+    
+    
+  
+}
+
+/*<<<<<<<<<<<<<<<<<<< large device responsive end >>>>>>>>>>>>>>>>>*/
+
+
+
+
+
+
+
+
+
+
